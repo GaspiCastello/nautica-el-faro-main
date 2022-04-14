@@ -4,6 +4,10 @@ import { styles } from './styles';
 import { makeStyles } from '@material-ui/core/styles';
 import { ImageWithPlaceHolder } from '../ImageWithPlaceHolder/ImageWithPlaceHolder';
 
+export const CompPrueba: React.FC = () => {
+  return <div>PARAAAA</div>;
+};
+
 interface SlideProps {
   src: string;
   alt: string;
@@ -11,12 +15,12 @@ interface SlideProps {
   height: number;
   title: string;
   body?: string;
-  image?: any;
+  image?: unknown;
   bodyImageSrc?: string;
   bodyImageAlt?: string;
   bodyImageWidth?: number;
   bodyImageHeight?: number;
-  onClick?: any;
+  onClick?: unknown;
 }
 export const Slide: React.FC<SlideProps> = ({
   src,
