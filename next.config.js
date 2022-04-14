@@ -1,2 +1,8 @@
-const withImages = require("next-images");
-module.exports = { ...withImages(), future: { webpack5: true } };
+/* eslint-disable @typescript-eslint/no-var-requires */
+const withImages = require('next-images');
+module.exports = {
+  ...withImages(),
+  images: {
+    disableStaticImages: true,
+  },
+};
