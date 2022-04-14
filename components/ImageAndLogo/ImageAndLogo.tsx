@@ -1,8 +1,8 @@
-import React from "react";
-import { Box, Typography } from "@material-ui/core";
-import { styles } from "./styles";
-import { makeStyles } from "@material-ui/core/styles";
-import { ImageWithPlaceHolder } from "../ImageWithPlaceHolder/ImageWithPlaceHolder";
+import React from 'react';
+import { Box, Typography } from '@material-ui/core';
+import { styles } from './styles';
+import { makeStyles } from '@material-ui/core/styles';
+import { ImageWithPlaceHolder } from '../ImageWithPlaceHolder/ImageWithPlaceHolder';
 
 interface ImageAndLogoProps {
   imageSrc: string;
@@ -42,14 +42,7 @@ export const ImageAndLogo: React.FC<ImageAndLogoProps> = ({
         quality={100}
       />
       <Box className={classes.logoTitleContainer}>
-        {logoSrc && (
-          <ImageWithPlaceHolder
-            src={logoSrc}
-            alt={logoAlt}
-            width={logoWith}
-            height={logoHeight}
-          />
-        )}
+        {logoSrc && <ImageWithPlaceHolder src={logoSrc} alt={logoAlt} width={logoWith} height={logoHeight} />}
         <Typography variant="h1" color="secondary">
           {logoTitle}
         </Typography>
