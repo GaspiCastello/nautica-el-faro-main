@@ -1,7 +1,7 @@
 import React from "react";
 import { Box } from "@material-ui/core";
-import rioPonton from "../../assets/rioPonton.png";
-import logoGris from "../../assets/logoNauticaGray.svg";
+// import rioPonton from "../../assets/rioPonton.png";
+// import logoGris from "../../assets/logoNauticaGray.svg";
 import { Slides } from "../Slides/Slides";
 import { ImageAndLogo } from "../ImageAndLogo/ImageAndLogo";
 import galpones from "../../assets/galpones.png";
@@ -15,7 +15,7 @@ const Landing = () => {
         imageAlt="rioPonton"
         imageWidth={1200}
         imageHeight={478}
-        logoSrc={logoGris}
+        logoSrc="{logoGris}"
         logoAlt="logoGris"
         logoWith={132}
         logoHeight={166}

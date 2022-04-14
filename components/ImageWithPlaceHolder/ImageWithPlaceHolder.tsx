@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import logoGris from "../../assets/logoNauticaGray.svg";
+// import logoGris from "../../assets/logoNauticaGray.svg";
 
 interface ImageProps {
   src?: string;
@@ -22,7 +22,7 @@ export const ImageWithPlaceHolder: React.FC<ImageProps> = ({
 }) => {
   return (
     <Image
-      src={src || logoGris}
+      src={src || "logoGris"}
       alt={alt || "logoGris"}
       width={width || 32}
       height={height || 32}

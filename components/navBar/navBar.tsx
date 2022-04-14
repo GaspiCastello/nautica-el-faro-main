@@ -1,7 +1,7 @@
 import React from "react";
 import { Typography, Toolbar, AppBar, Box } from "@material-ui/core";
-import NauticaLogoBlue from "../../assets/logoNauticaBlue.svg";
-import Phone from "../../assets/phone.svg";
+// import NauticaLogoBlue from "../../assets/logoNauticaBlue.svg";
+// import Phone from "../../assets/phone.svg";
 import { styles } from "./styles";
 import { makeStyles } from "@material-ui/core/styles";
 import Image from "next/image";
@@ -16,7 +16,7 @@ export default function NavBar() {
         <Toolbar>
           <Box className={classes.leftContainer}>
             <Image
-              src={NauticaLogoBlue}
+              src="{NauticaLogoBlue}"
               alt="rioPonton"
               width={72}
               height={52}
@@ -27,7 +27,7 @@ export default function NavBar() {
             </Typography>
           </Box>
           <Box className={classes.rightContainer}>
-            <Image src={Phone} alt="phone" width={24} height={24} />
+            <Image src="{Phone}" alt="phone" width={24} height={24} />
             <Typography
               className={classes.phoneContact}
               color="primary"
