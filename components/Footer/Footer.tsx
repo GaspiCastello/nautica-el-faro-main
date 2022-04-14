@@ -1,7 +1,7 @@
-import React from "react";
-import { Typography, Box } from "@material-ui/core";
-import { styles } from "./styles";
-import { makeStyles } from "@material-ui/core/styles";
+import React from 'react';
+import { Typography, Box } from '@material-ui/core';
+import { styles } from './styles';
+import { makeStyles } from '@material-ui/core/styles';
 
 export const Footer = () => {
   const useStyles = makeStyles(() => styles);

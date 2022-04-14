@@ -1,21 +1,21 @@
-import { createStyles } from "@material-ui/core/styles";
+import { createStyles } from '@material-ui/core/styles';
 
-import theme from "../../config/theme";
+import theme from '../../config/theme';
 
 export const styles = createStyles({
   rightContainer: {
-    marginLeft: "auto",
-    display: "flex",
-    flexDirection: "row",
-    alignContent: "center",
-    alignItems: "center",
+    marginLeft: 'auto',
+    display: 'flex',
+    flexDirection: 'row',
+    alignContent: 'center',
+    alignItems: 'center',
   },
   leftContainer: {
-    marginRight: "auto",
-    display: "flex",
-    flexDirection: "row",
-    alignContent: "center",
-    alignItems: "center",
+    marginRight: 'auto',
+    display: 'flex',
+    flexDirection: 'row',
+    alignContent: 'center',
+    alignItems: 'center',
   },
   phoneContact: {
     marginRight: theme.spacing(2),

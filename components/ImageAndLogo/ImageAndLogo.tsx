@@ -2,6 +2,7 @@ import React from 'react';
 import { Box, Typography } from '@material-ui/core';
 import { styles } from './styles';
 import { makeStyles } from '@material-ui/core/styles';
+
 import { ImageWithPlaceHolder } from '../ImageWithPlaceHolder/ImageWithPlaceHolder';
 
 interface ImageAndLogoProps {

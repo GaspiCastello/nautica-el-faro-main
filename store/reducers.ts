@@ -1,5 +1,6 @@
-import { combineReducers } from "redux";
-import * as types from "../constants/types";
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import { combineReducers } from 'redux';
+import * as types from '../constants/types';
 
 // INITIAL TIMER STATE
 const initialTimerState = {
@@ -15,10 +16,7 @@ export interface rootState {
 }
 
 // CLIENT LIST REDUCER
-const clientList = (
-  state: rootState = initialTimerState,
-  { type, payload }: Action
-): rootState => {
+const clientList = (state: rootState = initialTimerState, { type, payload }: Action): rootState => {
   switch (type) {
     case types.ERROR:
       return {

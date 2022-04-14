@@ -1,10 +1,12 @@
 import React from 'react';
+import Image from 'next/image';
+
+import { makeStyles } from '@material-ui/core/styles';
 import { Typography, Toolbar, AppBar, Box } from '@material-ui/core';
+import { styles } from './styles';
+
 import NauticaLogoBlue from '../../assets/logoNauticaBlue.svg';
 import Phone from '../../assets/phone.svg';
-import { styles } from './styles';
-import { makeStyles } from '@material-ui/core/styles';
-import Image from 'next/image';
 
 export default function NavBar() {
   const useStyles = makeStyles(() => styles);
@@ -15,7 +17,7 @@ export default function NavBar() {
       <AppBar position="static" color="transparent" elevation={0}>
         <Toolbar>
           <Box className={classes.leftContainer}>
-            <Image src={NauticaLogoBlue} alt="rioPonton" width={72} height={52} />
+            <Image src={NauticaLogoBlue} alt="logo" width={80} height={52} />
 
             <Typography color="primary" variant="h2">
               COMPLEJO NAUTICO EL FARO
